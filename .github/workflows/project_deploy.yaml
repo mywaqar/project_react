@@ -32,6 +32,6 @@ jobs:
     - name: install surge
       run:  npm install -g surge
     - name: run surge
-      run:  surge ./build project_react_waqar.surge.sh --token ${{secrets.SURGE_REACT}} 
+      run:  surge ./build project_react_waqar.surge.sh --token ${{secrets.REACT_PROJECT}} 
   
 
